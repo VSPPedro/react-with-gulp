@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
+import Titulo from './titulo/titulo'
 
 let App = (
-  <div>
-    <h1>Olá Mundo!</h1>
+  <div className="container">
+    <Titulo />
   </div>
 );
 
